@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Antonini - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav__logo">Fernanda<span>Antonini</span></a>
+                
+                <input type="checkbox" id="nav-toggle" class="nav__toggle">
+                <label for="nav-toggle" class="nav__toggle-label">
+                    <span class="nav__toggle-bar"></span>
+                    <span class="nav__toggle-bar"></span>
+                    <span class="nav__toggle-bar"></span>
+                </label>
+                
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#formacao" class="nav__link">Formação</a></li>
+                    <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                    <li class="nav__item"><a href="#projetos" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__image">
+                    <img src="images/i.jpg" alt="Fernanda Antonini" class="hero__img">
+                </div>
+                <div class="hero__text">
+                    <h1 class="hero__title">Olá, eu sou <span>Fernanda Antonini</span></h1>
+                    <p class="hero__description">Estudante de Ciências da Computação e Técnica em Informática</p>
+                    <div class="hero__buttons">
+                        <a href="#contato" class="btn btn--primary">Entre em Contato</a>
+                        <a href="#projetos" class="btn btn--secondary">Ver Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section__title">Sobre Mim</h2>
+            <div class="sobre__content">
+                <div class="sobre__image">
+                    <img src="images/minas_summit.jpg" alt="Sobre Fernanda" class="sobre__img">
+                </div>
+                <div class="sobre__text">
+                    <h3 class="sobre__subtitle">Fernanda Antonini Campos Cordeiro Gomes</h3>
+                    <p class="sobre__description">Sou uma estudante apaixonada por tecnologia, com 20 anos, atualmente cursando Ciências da Computação na Newton de Paiva Wyden. Minha trajetória inclui um curso técnico em Informática com foco em redes e arquiteturas de computadores.</p>
+                    <p class="sobre__description">Tenho grande interesse em desenvolvimento de software, infraestrutura de TI e soluções tecnológicas inovadoras. Busco constantemente aprender novas tecnologias e aprimorar minhas habilidades.</p>
+                    
+                    <div class="sobre__info">
+                        <div class="info__item">
+                            <span class="info__label">Nome:</span>
+                            <span class="info__value">Fernanda Antonini Campos Cordeiro Gomes</span>
+                        </div>
+                        <div class="info__item">
+                            <span class="info__label">Idade:</span>
+                            <span class="info__value">20 anos</span>
+                        </div>
+                        <div class="info__item">
+                            <span class="info__label">Formação:</span>
+                            <span class="info__value">Ciências da Computação - Newton Paiva</span>
+                        </div>
+                        <div class="info__item">
+                            <span class="info__label">Curso Técnico:</span>
+                            <span class="info__value">Informática (Redes e Arquiteturas)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sobre__actions">
+                        <a href="Fernanda_Antonini.pdf" download class="btn btn--primary">Download CV</a>
+                        <a href="#contato" class="btn btn--outline">Vamos Conversar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="formacao" class="formacao">
+        <div class="container">
+            <h2 class="section__title">Formação Acadêmica</h2>
+            <div class="formacao__grid">
+                <article class="formacao__card">
+                    <div class="card__icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="card__title">Ciências da Computação</h3>
+                    <p class="card__institution">Newton de Paiva Wyden</p>
+                    <span class="card__period">Cursando</span>
+                    <p class="card__description">Graduação em andamento com foco em desenvolvimento de software, algoritmos e estruturas de dados.</p>
+                </article>
+                
+                <article class="formacao__card">
+                    <div class="card__icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="card__title">Técnico em Informática</h3>
+                    <p class="card__institution">Curso Técnico</p>
+                    <span class="card__period">Concluído</span>
+                    <p class="card__description">Especialização em redes de computadores e arquiteturas de computadores, com conhecimentos em back-end.</p>
+                </article>
+                
+                <article class="formacao__card">
+                    <div class="card__icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="card__title">Redes e Arquiteturas</h3>
+                    <p class="card__institution">Especialização Técnica</p>
+                    <span class="card__period">Concluído</span>
+                    <p class="card__description">Conhecimentos em configuração de redes, protocolos de comunicação e arquitetura de computadores.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="habilidades" class="habilidades">
+        <div class="container">
+            <h2 class="section__title">Minhas Habilidades</h2>
+            <div class="habilidades__grid">
+                <div class="habilidade__category">
+                    <h3 class="category__title">Desenvolvimento</h3>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <span class="skill__name">HTML/CSS</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--75"></div>
+                            </div>
+                            <span class="skill__percentage">75%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">JavaScript</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--70"></div>
+                            </div>
+                            <span class="skill__percentage">70%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Java</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--75"></div>
+                            </div>
+                            <span class="skill__percentage">75%</span>
+                        </div>
+                         <div class="skill__item">
+                            <span class="skill__name">PHP</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--35"></div>
+                            </div>
+                            <span class="skill__percentage">35%</span>
+                        </div>
+                         <div class="skill__item">
+                            <span class="skill__name">C#</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--65"></div>
+                            </div>
+                            <span class="skill__percentage">65%</span>
+                        </div>
+                         <div class="skill__item">
+                            <span class="skill__name">Pyton</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--70"></div>
+                            </div>
+                            <span class="skill__percentage">70%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="habilidade__category">
+                    <h3 class="category__title">Redes & Infraestrutura</h3>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <span class="skill__name">Redes TCP/IP</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--80"></div>
+                            </div>
+                            <span class="skill__percentage">80%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Segurança de Rede</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--65"></div>
+                            </div>
+                            <span class="skill__percentage">65%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Infraestrutura TI</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--75"></div>
+                            </div>
+                            <span class="skill__percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="habilidade__category">
+                    <h3 class="category__title">Ferramentas & Tecnologias</h3>
+                    <div class="skills__list">
+                        <div class="skill__item">
+                            <span class="skill__name">Git/GitHub</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--70"></div>
+                            </div>
+                            <span class="skill__percentage">70%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">MySQL</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--60"></div>
+                            </div>
+                            <span class="skill__percentage">60%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Figma</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--55"></div>
+                            </div>
+                            <span class="skill__percentage">55%</span>
+                        </div>
+                        <div class="skill__item">
+                            <span class="skill__name">Trello</span>
+                            <div class="skill__bar">
+                                <div class="skill__level skill--90"></div>
+                            </div>
+                            <span class="skill__percentage">90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="section__title">Meus Projetos</h2>
+            <div class="projetos__grid">
+                <article class="projeto__card">
+                    <div class="projeto__image">
+                        <img src="images/3.jpg" alt="Projeto de Redes" class="projeto__img">
+                        <div class="projeto__overlay">
+                            <a href="#projeto1" class="projeto__link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="projeto__content">
+                        <h3 class="projeto__title">Configuração de Rede Local</h3>
+                        <p class="projeto__description">Projeto de implementação e configuração de rede local para pequena empresa.</p>
+                        <div class="projeto__tags">
+                            <span class="projeto__tag">Redes</span>
+                            <span class="projeto__tag">Infraestrutura</span>
+                            <span class="projeto__tag">Segurança</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="projeto__card">
+                    <div class="projeto__image">
+                        <img src="images/5.png" alt="Projeto de Software" class="projeto__img">
+                        <div class="projeto__overlay">
+                            <a href="#projeto2" class="projeto__link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="projeto__content">
+                        <h3 class="projeto__title">Sistema que auxiliava a rotina</h3>
+                        <p class="projeto__description">Desenvolvimento de sistema para ajudar pessoas com suas rotinas de medicamentos ou lembretes que presisavam.</p>
+                        <div class="projeto__tags">
+                            <span class="projeto__tag">PHP</span>
+                            <span class="projeto__tag">MySQL</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="projeto__card">
+                    <div class="projeto__image">
+                        <img src="images/1.jpg" alt="Projeto de Hardware" class="projeto__img">
+                        <div class="projeto__overlay">
+                            <a href="#projeto3" class="projeto__link">Ver Detalhes</a>
+                        </div>
+                    </div>
+                    <div class="projeto__content">
+                        <h3 class="projeto__title">Montagem de Laboratório de TI</h3>
+                        <p class="projeto__description">Planejamento e implementação de laboratório de informática para instituição de ensino.</p>
+                        <div class="projeto__tags">
+                            <span class="projeto__tag">Hardware</span>
+                            <span class="projeto__tag">Infraestrutura</span>
+                            <span class="projeto__tag">Configuração</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section__title">Entre em Contato</h2>
+            <div class="contato__content">
+                <div class="contato__info">
+                    <h3 class="contato__subtitle">Vamos conversar!</h3>
+                    <p class="contato__description">Estou sempre aberta a novas oportunidades de aprendizado e colaboração. Entre em contato para conversarmos sobre tecnologia, projetos ou oportunidades.</p>
+                    
+                    <div class="contato__items">
+                        <div class="contato__item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="contato__label">Email</span>
+                                <span class="contato__value">fernandaantoninicg@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contato__item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contato__label">Telefone</span>
+                                <span class="contato__value">+55 (31) 99608-3515</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contato__item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contato__label">Localização</span>
+                                <span class="contato__value">Belo Horizonte, MG</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contato__social">
+                        <a href="https://www.linkedin.com/in/fernanda-antonini-campos-cordeiro-gomes-2b8b57254/" class="social__link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Fernanda0124" class="social__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contato__form">
+                    <form class="form" action="#" method="POST">
+                        <div class="form__group">
+                            <label for="nome" class="form__label">Nome</label>
+                            <input type="text" id="nome" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="assunto" class="form__label">Assunto</label>
+                            <input type="text" id="assunto" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="mensagem" class="form__label">Mensagem</label>
+                            <textarea id="mensagem" class="form__textarea" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary form__button">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <a href="#" class="footer__logo">Fernanda<span>Antonini</span></a>
+                    <p class="footer__description">Estudante de Ciências da Computação | Técnica em Informática</p>
+                </div>
+                
+                <div class="footer__links">
+                    <h4 class="footer__title">Links Rápidos</h4>
+                    <ul class="footer__list">
+                        <li><a href="#inicio" class="footer__link">Início</a></li>
+                        <li><a href="#sobre" class="footer__link">Sobre</a></li>
+                        <li><a href="#projetos" class="footer__link">Projetos</a></li>
+                        <li><a href="#contato" class="footer__link">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__contact">
+                    <h4 class="footer__title">Contato</h4>
+                    <p class="footer__text">fernandaantoninicg@gmail.com</p>
+                    <p class="footer__text">+55 (31) 99608-3515</p>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">&copy; 2025 Fernanda Antonini. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
